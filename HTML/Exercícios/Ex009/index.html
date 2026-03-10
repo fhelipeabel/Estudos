@@ -1,41 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Codigo-fonte / Pré-formatação</h2>
-    <p>O comando <code>docment.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'0 número {num} é PAR')
-    else:
-        print(f'0 númer {num} é IMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro <i>HTML Para Leigos</i>:</p>
-    <blockquote cite="https://docente.ifsc.edu.br/lara.popov/web1/apostila__html_css.pdf">
-        Esta apostila tem por objetivo mostrar de
-modo fácil como criar websites utilizando
-as linguagens HTML e CSS; e através do
-desenvolvimento de exemplos práticos, o
-leitor conhecerá de forma resumida e
-direta os principais recursos que envolve o
-desenvolvimento de layouts web. 
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando muito!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">LMTH me sasioc rairc a odnednerpa uotsE</bdo></p>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i" start="1">
+        <li>Acordar</li>
+        <li><ins>Ligar para o João</ins></li>
+        <li>Tomar café</li>
+        <li>Escovar os Dentes</li>
+        <li>Organizar o trabalho do dia</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!--disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
 </body>
 </html>
