@@ -1,0 +1,29 @@
+.example-item {
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.example-item_first {
+    display: block;
+    width: 33.3333%;
+    background-color: lightblue;
+    padding: 20px;
+    margin-right: auto;
+}
+
+.example-item_second {
+    display: block;
+    width: 33.3333%;
+    background-color: lightcoral;
+    padding: 20px;
+    margin-left: auto;
+}
+
+.example-item_third {
+    display: block;
+    width: 33.3333%;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: auto;
+}
