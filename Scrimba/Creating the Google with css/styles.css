@@ -6,9 +6,11 @@
     display: block;
     width: 300px;
     margin-bottom: 20px;
+    margin: auto;
 }
 
 .search-input {
     display: block;
     width: 400px;
+    margin: auto;
 }
