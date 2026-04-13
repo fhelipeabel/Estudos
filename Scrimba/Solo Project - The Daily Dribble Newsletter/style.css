@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: 'Saira Stencil', sans-serif;
+    background-image: url(https://i.imgur.com/dJCoTTx.jpeg);
+    background-size: contain;
+}
+
+.container {
+    margin: 0px auto;
+    display: block;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.main {
+    display: block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 18px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 18px;
+    background-color: #222;
+    color: #fafafa;
+    border: 1px solid grey;
+}
+
+p {
+    color: #222;
+}
+
+.terms {
+    font-size: 12px;
+}
+
+.terms a {
+    text-decoration: underline rgb(197, 197, 197);
+    color: black;
+    font-weight: bold;
+}

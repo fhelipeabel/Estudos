@@ -1,0 +1,35 @@
+button {
+    border: 0.8px solid #cfd9de;
+    border-radius: 35px;
+    padding: 8px 15px;
+    margin: 10px;
+    color: #0f1419;
+    font-weight: 800;
+    background-color: white;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
+
+button:active {
+    background-color: #eee;
+    border: 1px solid grey;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    border: 0.8px solid grey;
+}
+
+.black-button:hover {
+    background-color: #222;
+    border: 1px solid grey;
+}
+
+.black-button:active {
+    background-color: #111;
+    border: 1px solid grey;
+}
