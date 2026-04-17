@@ -3,18 +3,26 @@ body {
 }
 
 .profile-img {
-    width: 180px;
-    height: 180px;
-    border-radius: 10%;
-    border: 2px dotted rgb(0, 121, 151);
+    width: 150px;
+    border-radius: 8px;
 }
 
 .card {
     padding: 20px;
     display: flex;
+    width: 400px;
+    color: #2b2839;
+    border-bottom: 7px solid #d8cefe;
+    background-color: #ddebf8;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    border-radius: 10px;
+    margin: auto;
 }
 
-.dotted-border {
-    border: 2px dotted rgb(0, 121, 151);
-    border-radius: 10%;
+.alignment {
+    justify-content: space-around;
+}
+
+.centered {
+    text-align: center;
 }
