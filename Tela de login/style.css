@@ -4,7 +4,7 @@ body {
     padding: 0;
     border: none;
     font-family: Space Grotesk, sans-serif;
-    color: #f7f7f7;   
+    color: #ffffff;   
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
     width: 50%;
     background: linear-gradient( #1A3C34, #07614c);
     display: flex;
-    padding: 30px;
+    padding: 20px;
 
 }
 
@@ -27,6 +27,7 @@ body {
 .form {
     display: block;
     margin-top: 20px;
+    max-width: 450px;
 }
 
 .outfield {
@@ -43,10 +44,9 @@ body {
 
 .input-field {
     padding: 10px;
-    width: 300px;
     border: none;
     background: #0bd3a4;
-    color: #4b5553;
+    color: #ffffff;
 }
 
 .input-field:focus-visible {
@@ -54,16 +54,73 @@ body {
     border: none;
 }
 
+.input-field::placeholder {
+    color: #97e6d6;
+    opacity: 0.7;
+}
+
 .small {
+    display: flex;
     margin-top: 10px;
+    justify-content: space-between;
+    font-size: 13px;
 }
 
 .checkbox {
-  height: 18px;
-  width: 18px;
-  vertical-align: middle;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
 
-  border-radius: 4px;
+.accept {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.small-link {
+    text-decoration: none;
+    color: rgb(90, 133, 115);
+    font-size: 12px;
+}
+
+.button-acessar-div {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.acessar {
+    padding: 15px 60px;
+    margin-top: 25px;
+    background: rgb(74, 255, 74);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.acessar:hover {
+    background: rgb(129, 255, 129);
+    color: #00643e
+}
+
+.final-info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 25px 10px 0px 10px;
+}
+
+.iconsdiv {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 20px;
+}
+
+.icon {
+    margin: 0px 5px;
 }
 
 .right-col {
