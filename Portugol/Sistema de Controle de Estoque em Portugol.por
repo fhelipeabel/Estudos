@@ -1,10 +1,11 @@
 programa {
 
-  cadeia produtos[100]
+  cadeia produto[100]
   inteiro estoque[100]
-  inteiro codProduto[100]
+  inteiro codProduto = 0
 
   funcao inicio() {
+    inteiro opcao
     faca {
       escreva("\n===== SISTEMA DE ESTOQUE =====\n")
       escreva("1 - Cadastrar Produto\n")
@@ -16,7 +17,6 @@ programa {
 
       escreva("\nEscolha uma opção: ")
       leia(opcao)
-      }enquanto(opcao != 0)
 
       escolha(opcao) {
         caso 1: cadastrarProduto() pare
@@ -25,17 +25,46 @@ programa {
         caso 4: consultarProduto() pare
         caso 5: listarProdutos() pare
       }
+      }enquanto(opcao != 0)
   }
 
   funcao cadastrarProduto() {
     escreva("Digite o nome do produto: ")
-    leia(produtos[codProduto])
+    leia(produto[codProduto])
     escreva("Digite a quantidade: ")
     leia(estoque[codProduto])
     codProduto ++
   }
 
   funcao adicionarEstoque() {
-    escreva("Digite a quantidade de itens")
+    inteiro id, quantidade
+    escreva("Digite o código do produto: ")
+    leia(id)
+    escreva("Digite a quantidade: ")
+    leia(quantidade)
+    estoque[id] = estoque[id] + quantidade
+  }
+
+  funcao retirarEstoque() {
+    inteiro id, quantidade
+    escreva("Digite o código do produto: ")
+    leia(id)
+    escreva("Digite a quantidade: ")
+    leia(quantidade)
+    estoque[id] = estoque[id] - quantidade
+  }
+
+  funcao consultarProduto() {
+    inteiro id
+    escreva("Digite o código do produto: ")
+    leia(id)
+    escreva("item: ", produto[id], " - quantidade: ", estoque[id], "\n")
+  }
+
+  funcao listarProdutos() {
+    inteiro i
+    para(i=0;i<codProduto;i++) {
+      escreva("Item: ", produto[i], " - Quantidade: ", estoque[i], "\n")
+    }
   }
 }
